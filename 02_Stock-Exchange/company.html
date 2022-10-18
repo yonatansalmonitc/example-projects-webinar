@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ITC - JS Project 2 - Stock Exchange - Company Details</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+  </head>
+  <body class="d-flex flex-column gap-3 bg-light p-5">
+    <div id="compInfo"></div>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script type="module">
+      import CompanyInfo from "./js/CompanyInfo.js";
+      import { backLink } from "./js/helpers.js";
+      (async function () {
+        const params = new URLSearchParams(location.search);
+        const symbol = params.get("symbol");
+        const compInfo = new CompanyInfo(
+          document.getElementById("compInfo"),
+          symbol
+        );
+        backLink(document.getElementById("compInfo"));
+        await compInfo.load();
+        await compInfo.addChart();
+      })();
+    </script>
+  </body>
+</html>

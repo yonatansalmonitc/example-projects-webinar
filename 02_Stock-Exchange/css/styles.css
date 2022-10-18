@@ -1,0 +1,52 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.3rem;
+}
+
+#search-input:focus,
+#search-button:focus {
+  outline-style: none;
+  box-shadow: none;
+  border-color: var(--bs-yellow);
+}
+
+.company-symbol {
+  max-width: 150px;
+}
+
+#stock-data {
+  font-size: 1.6rem;
+}
+
+.green {
+  color: var(--bs-teal);
+}
+
+.red {
+  color: var(--bs-red);
+}
+
+#results-list img {
+  max-height: 30px;
+}
+
+#marquee div {
+  will-change: transform;
+  animation: marquee 500s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+#compInfo img {
+  max-width: 200px;
+}
