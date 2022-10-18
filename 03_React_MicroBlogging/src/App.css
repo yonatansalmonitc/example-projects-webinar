@@ -1,0 +1,346 @@
+/**
+ * ITC Full-Stack Bootcamp
+ * React Micro Blogging assignment
+ * 24/07/2022
+ * Asaf Gilboa
+*/
+
+* {
+  box-sizing: border-box;
+}
+html,
+body,
+.main {
+  height: 100%;
+  padding: 0;
+  background-color: #243447;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+.feed {
+  display: flex;
+  flex-direction: column;
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
+  position: sticky;
+  overflow: hidden;
+  margin: auto;
+  top: 0;
+  width: 80%;
+  height: 10vh;
+  background-color: #343a40;
+  border-radius: 6px;
+  font-size: 1.2vw;
+}
+
+.navItem {
+  margin: 3%;
+  cursor: pointer;
+  text-decoration: none;
+}
+.navItem:nth-child(2) {
+  flex-grow: 1;
+}
+.navItem:hover,
+.navItem:active {
+  color: white;
+}
+
+.loggedUser {
+  color: #d3dce5;
+  cursor: default;
+}
+
+.activeLink {
+  color: white;
+}
+.noneActiveLink {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.createTweetForm {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 3%;
+  border: 2px solid #cccccc;
+  border-radius: 6px;
+  padding: 1%;
+}
+
+.createTweetInput {
+  resize: none;
+  border: none;
+  background: transparent;
+  color: #cccccc;
+}
+.createTweetInput::placeholder {
+  color: #cccccc;
+}
+.createTweetInput:focus {
+  outline: none;
+}
+
+.formMessage,
+.loginError {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-radius: 4px;
+  height: fit-content;
+  padding: 0.75% 0;
+}
+
+.formBottomBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.submitBtn,
+.formMessage,
+.createTweetInput,
+.tweetContent {
+  font-size: 1.2vw;
+}
+.tweetContainer,
+.createTweetInput {
+  min-height: 14vh;
+  height: fit-content;
+}
+
+.tweetContainer,
+.createTweetForm {
+  width: 46%;
+}
+
+.tweetContainer {
+  margin: auto;
+  margin-top: 1%;
+  background-color: #343a40;
+  border-radius: 6px;
+  padding: 1%;
+  cursor: default;
+}
+
+.tweetHead {
+  display: flex;
+  justify-content: space-between;
+  color: #6c757d;
+  font-size: 1vw;
+}
+
+.tweetContent {
+  color: whitesmoke;
+  overflow: hidden;
+  margin-left: 2%;
+}
+
+.tweetBody {
+  display: flex;
+}
+
+.tweetAvatar {
+  object-fit: fill;
+  width: 5vw;
+  aspect-ratio: 1 / 1;
+  border-radius: 10px;
+  border: 1px solid #8ba6c2;
+}
+
+.loader {
+  width: 4vw;
+  height: 4vw;
+}
+
+.profileContainer,
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 4%;
+  width: 80%;
+}
+.loginContainer {
+  margin-top: 0.5%;
+  width: 50%;
+}
+
+.profileBody {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profileHeader {
+  font-size: 3.2vw;
+  color: white;
+}
+
+.inputTitle {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.5vw;
+  margin-top: 3%;
+}
+.emailLogin > .inputTitle {
+  font-size: 1.4vw;
+}
+
+#profileInput,
+.loginInput {
+  background-color: transparent;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  padding: 2.5% 2%;
+  color: white;
+}
+.loginInput {
+  width: 100%;
+  margin: 2% 0.5%;
+  padding: 2% 1.5%;
+}
+
+.loginHeader {
+  margin-top: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.loginTitle {
+  color: rgb(91, 140, 208);
+  font-weight: 600;
+  font-size: 2vw;
+}
+
+.loginError {
+  margin-right: 20%;
+  font-size: 1.5vw;
+}
+
+#profileInput:focus,
+.loginInput:focus {
+  outline: none;
+}
+#profileInput,
+#profileInput::placeholder,
+.profileBtn {
+  font-size: 1.3vw;
+}
+
+.loginInput,
+.loginInput::placeholder {
+  font-size: 1.2vw;
+}
+
+.loginContainer > .profileBtnWrap {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 20%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profileBtn {
+  width: fit-content;
+  padding: 1% 2%;
+  margin: 2% 1%;
+}
+
+.loginMode {
+  color: whitesmoke;
+  text-shadow: 0 0 2px #2166ac;
+  cursor: default;
+  font-size: 1.7vw;
+}
+.loginModeClick {
+  color: rgb(0, 106, 255);
+  cursor: pointer;
+}
+
+.googleLogin {
+  text-align: center;
+  margin: 3% 10% 0 0;
+}
+.googleLoginBtn {
+  border-radius: 5px;
+  padding: 1%;
+}
+.googleIcon {
+  height: 4vw;
+}
+
+.profileNameDiv {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.profilePicDiv {
+  display: flex;
+  flex-direction: column;
+}
+.profilePic {
+  object-fit: fill;
+  width: 18vw;
+  aspect-ratio: 1 / 1;
+  border-radius: 15px;
+  border: 4px outset #343a40;
+}
+
+.uploadImgBtn {
+  margin: 5% 0;
+  padding: 3%;
+}
+
+#imgInput {
+  display: none;
+}
+
+.displayFilter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  margin: 1% auto;
+  padding: 0.5%;
+  border: 2px solid #cccccc;
+  border-radius: 6px;
+  background-color: #2166ac;
+  color: white;
+  font-size: 1.2vw;
+}
+
+.filterModeText {
+  font-weight: 600;
+  font-size: 1.3vw;
+}
+
+.userTweetsMode {
+  background-image: linear-gradient(#16345a, #5389cb);
+}
+
+.searchBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  padding: 0.25%;
+  border-radius: 4px;
+}
+
+#searchBar {
+  margin-right: 1%;
+  background: transparent;
+  resize: none;
+  border: none;
+}
+#searchBar:focus {
+  outline: none;
+}
+
+.searchIcon {
+  cursor: pointer;
+}

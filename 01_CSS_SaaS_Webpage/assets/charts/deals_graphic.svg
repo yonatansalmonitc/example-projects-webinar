@@ -1,0 +1,33 @@
+<svg width="auto" height="auo" viewBox="0 0 397 222" fill="none" xmlns="http://www.w3.org/2000/svg">
+<text fill="#4C5862" xml:space="preserve" style="white-space: pre" font-family="Poppins" font-size="12" letter-spacing="0.01em"><tspan x="32" y="214.6">1 Dec</tspan></text>
+<text fill="#4C5862" xml:space="preserve" style="white-space: pre" font-family="Poppins" font-size="12" letter-spacing="0.01em"><tspan x="0" y="188.6">0</tspan></text>
+<text fill="#4C5862" xml:space="preserve" style="white-space: pre" font-family="Poppins" font-size="12" letter-spacing="0.01em"><tspan x="0" y="144.6">50</tspan></text>
+<text fill="#4C5862" xml:space="preserve" style="white-space: pre" font-family="Poppins" font-size="12" letter-spacing="0.01em"><tspan x="0" y="100.6">100</tspan></text>
+<text fill="#4C5862" xml:space="preserve" style="white-space: pre" font-family="Poppins" font-size="12" letter-spacing="0.01em"><tspan x="0" y="56.6">150</tspan></text>
+<text fill="#4C5862" xml:space="preserve" style="white-space: pre" font-family="Poppins" font-size="12" letter-spacing="0.01em"><tspan x="0" y="12.6">200</tspan></text>
+<text fill="#4C5862" xml:space="preserve" style="white-space: pre" font-family="Poppins" font-size="12" letter-spacing="0.01em"><tspan x="357" y="214.6">31 Dec</tspan></text>
+<text fill="#4C5862" xml:space="preserve" style="white-space: pre" font-family="Poppins" font-size="12" letter-spacing="0.01em"><tspan x="140" y="214.6">8 Dec</tspan></text>
+<text fill="#4C5862" xml:space="preserve" style="white-space: pre" font-family="Poppins" font-size="12" letter-spacing="0.01em"><tspan x="249" y="214.6">16 Dec</tspan></text>
+<line x1="305" y1="10" x2="305" y2="185" stroke="#C2CFE0"/>
+<line x1="32" y1="185.5" x2="397" y2="185.5" stroke="#D3D8DD" stroke-miterlimit="16" stroke-dasharray="8 8"/>
+<line x1="32" y1="141.5" x2="397" y2="141.5" stroke="#D3D8DD" stroke-miterlimit="16" stroke-dasharray="8 8"/>
+<line x1="32" y1="97.5" x2="397" y2="97.5" stroke="#D3D8DD" stroke-miterlimit="16" stroke-dasharray="8 8"/>
+<line x1="32" y1="53.5" x2="397" y2="53.5" stroke="#D3D8DD" stroke-miterlimit="16" stroke-dasharray="8 8"/>
+<line x1="32" y1="9.5" x2="397" y2="9.5" stroke="#D3D8DD" stroke-miterlimit="16" stroke-dasharray="8 8"/>
+<mask id="mask0_1152_427" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="32" y="10" width="365" height="176">
+<rect x="32" y="10" width="365" height="176" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask0_1152_427)">
+<path opacity="0.2" d="M91.7189 98.988C62.1852 98.1182 34.1006 138.967 26.5 156V187H418.5L405 52.4999C375 59.9999 343 44.9999 333.852 44.6264C313.222 44.6264 282.458 87.3902 268.704 109.859C257.412 129.864 243.007 134.141 237.216 133.778C210.288 134.648 189.803 89.9272 182.926 67.4582C176.846 42.2344 170 37.0161 166.639 37.0161C161 36.9999 152.524 44.4092 143.837 69.6326C135.151 94.856 121.397 101.887 115.607 102.249C107.507 102.756 97.8718 98.9878 91.7189 98.988Z" fill="url(#paint0_linear_1152_427)"/>
+<path d="M91.7189 98.988L91.6895 99.9875C91.6993 99.9878 91.7091 99.988 91.719 99.988L91.7189 98.988ZM115.607 102.249L115.544 101.251L115.607 102.249ZM166.639 37.0161L166.636 38.0161H166.639L166.639 37.0161ZM182.926 67.4582L181.954 67.6925C181.959 67.7121 181.964 67.7316 181.97 67.7509L182.926 67.4582ZM237.216 133.778L237.278 132.78C237.247 132.778 237.215 132.778 237.184 132.779L237.216 133.778ZM268.704 109.859L267.851 109.337C267.845 109.347 267.839 109.358 267.833 109.368L268.704 109.859ZM333.852 44.6264L333.893 43.6272C333.879 43.6266 333.866 43.6264 333.852 43.6264V44.6264ZM27.4132 156.407C31.167 147.995 40.0243 133.62 51.6083 121.47C63.2281 109.283 77.3701 99.5658 91.6895 99.9875L91.7484 97.9884C76.534 97.5403 61.8669 107.812 50.1608 120.09C38.4189 132.406 29.4336 146.972 25.5868 155.592L27.4132 156.407ZM91.719 99.988C94.6616 99.9879 98.4664 100.894 102.727 101.787C106.911 102.665 111.467 103.51 115.669 103.247L115.544 101.251C111.646 101.495 107.335 100.71 103.138 99.8299C99.0182 98.966 94.9291 97.9879 91.7189 97.988L91.719 99.988ZM115.669 103.247C122.019 102.85 136.024 95.3906 144.783 69.9582L142.892 69.307C134.277 94.3215 120.776 100.924 115.544 101.251L115.669 103.247ZM144.783 69.9582C149.108 57.3989 153.355 49.3562 157.169 44.4752C161 39.5722 164.27 38.0093 166.636 38.0161L166.642 36.0161C163.369 36.0067 159.581 38.1403 155.593 43.2438C151.588 48.3693 147.253 56.643 142.892 69.307L144.783 69.9582ZM166.639 38.0161C167.804 38.0161 170.094 38.9594 172.924 43.3224C175.728 47.6453 178.926 55.1328 181.954 67.6925L183.898 67.2239C180.845 54.5598 177.581 46.8262 174.602 42.234C171.649 37.682 168.835 36.0161 166.639 36.0161L166.639 38.0161ZM181.97 67.7509C185.428 79.0504 192.305 95.9447 201.722 109.929C206.431 116.921 211.802 123.227 217.735 127.738C223.672 132.252 230.221 135.005 237.248 134.778L237.184 132.779C230.748 132.987 224.638 130.475 218.945 126.146C213.248 121.814 208.019 115.699 203.381 108.812C194.104 95.0356 187.301 78.3351 183.882 67.1655L181.97 67.7509ZM237.154 134.776C243.408 135.168 258.138 130.613 269.575 110.351L267.833 109.368C256.686 129.116 242.606 133.113 237.278 132.78L237.154 134.776ZM269.557 110.381C276.415 99.1778 287.51 82.9222 299.447 69.481C305.417 62.7589 311.572 56.7695 317.491 52.4683C323.436 48.1487 329.013 45.6264 333.852 45.6264V43.6264C328.376 43.6264 322.372 46.4495 316.316 50.8503C310.234 55.2695 303.971 61.3753 297.952 68.1529C285.911 81.7109 274.747 98.0718 267.851 109.337L269.557 110.381ZM333.811 45.6255C335.951 45.7129 339.528 46.6742 344.338 48.0313C349.085 49.3707 354.91 51.055 361.39 52.492C374.341 55.364 390.021 57.2755 405.243 53.47L404.757 51.5297C389.979 55.2243 374.659 53.3858 361.823 50.5394C355.41 49.1172 349.644 47.4502 344.881 46.1064C340.181 44.7803 336.327 43.7266 333.893 43.6272L333.811 45.6255Z" fill="#109CF1"/>
+<circle cx="305" cy="62" r="4" fill="white" stroke="#109CF1" stroke-width="2"/>
+</g>
+<rect opacity="0.6" x="318" y="50" width="46" height="24" rx="12" fill="#192A3E"/>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Poppins" font-size="11" font-weight="500" letter-spacing="0.01em"><tspan x="332.231" y="65.55">146</tspan></text>
+<defs>
+<linearGradient id="paint0_linear_1152_427" x1="222.5" y1="37.0161" x2="222" y2="187" gradientUnits="userSpaceOnUse">
+<stop stop-color="#109CF1"/>
+<stop offset="1" stop-color="#109CF1" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>
